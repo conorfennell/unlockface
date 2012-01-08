@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Unlockface</string>
+	<string name="back_text">And back again:</string>
+	<string name="empty"></string>
+	<string name="requesting">Requesting...</string>
+	<string name="train_button">Save face to training set for facial recognition</string>
+	<string name="register_button">Register</string>
+	<string name="take_photo">Take Photo</string>
+	<string name="saveDetectionButton">Save face</string>
+	<string name="detecting_face_message">Detecting face....</string>
+	<string name="status">status</string>
+	<string name="saving_face_message">Saving face....</string>
+	<string name="lock_phone">Lock Phone</string>
+	<string name="train_facial_recognition">Train facial Recognition</string>
+	<string name="facial_recognition_error">ERROR: Cannot start facial recognition</string>
+</resources>
+
+
+
+
+
+

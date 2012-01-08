@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TableLayout android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:stretchColumns="1"
+	android:padding="10dip" android:weightSum="1">
+    <ImageView android:src="@drawable/photoplaceholder" android:id="@+id/faceImage" android:layout_width="match_parent" android:layout_height="207dp" android:focusable="true" android:focusableInTouchMode="true"></ImageView>
+    <TextView android:layout_weight="0.13" android:id="@+id/retranslated_text" android:padding="10dip" android:textSize="18sp" android:text="Phone Locked"></TextView>
+    <Button android:layout_height="wrap_content" android:id="@+id/takePictureButton" android:layout_width="wrap_content" android:text="@string/take_photo" ></Button>
+	<Button android:text="Unlock with facial recognition" android:layout_weight="0.91" android:id="@+id/processImage" android:layout_width="150dp" android:layout_height="match_parent"></Button>
+	<TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceSmall" android:text="@string/password"></TextView>
+	<EditText android:inputType="textPassword" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/pass"></EditText>
+	<Button android:text="Unlock with password" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/unlock_with_password"></Button>
+	<TextView android:layout_weight="0.13" android:id="@+id/translated_text" android:padding="10dip" android:textSize="18sp"></TextView>
+	</TableLayout>
+</ScrollView>

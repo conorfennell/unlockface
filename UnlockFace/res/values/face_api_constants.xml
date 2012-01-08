@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="detect_uri">http://api.face.com/faces/train.json</string>
+	<string name="api_key">ee028ebb0ed0203740ea1c129977cc84</string>
+	<string name="api_secret">976f979ca8549d9424b6090e28dfd8c4</string>
+	<string name="save_uri">http://api.face.com/tags/save.json</string>
+	<string name="api_key_url_att">\?api_key=</string>
+	<string name="recognize_uri">http://api.face.com/faces/recognize.json</string>
+	<string name="_unlockface_com">\@unlockface.com</string>
+	<string name="setup_account">Register</string>
+	<string name="username">Username</string>
+	<string name="password">Password</string>
+	<string name="submit">Submit</string>
+	<string name="login">Login</string>
+	<string name="intro">Welcome</string>
+</resources>

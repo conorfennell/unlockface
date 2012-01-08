@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="442dp" android:weightSum="1">
+        <ImageView android:id="@+id/picture" android:src="@drawable/photoplaceholder" android:layout_gravity="center_horizontal" android:layout_height="224dp" android:layout_weight="1.28" android:layout_width="234dp"></ImageView>
+        <TextView android:text="No picture" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="match_parent" android:id="@+id/pictureStatus" android:layout_gravity="center" android:layout_height="match_parent"></TextView>
+        <Button android:id="@+id/takePhoto" android:layout_width="match_parent" android:text="@string/take_photo" android:layout_height="wrap_content"></Button>
+        <Button android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/saveDetectionButton" android:id="@+id/saveButton"></Button>
+    	 <Button android:id="@+id/trainButton" android:layout_width="match_parent" android:text="@string/train_button" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

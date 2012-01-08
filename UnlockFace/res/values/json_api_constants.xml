@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="tags">tags</string>
+	<string name="photos">photos</string>
+	<string name="tid">tid</string>
+	<string name="utf_8">UTF-8</string>
+	<string name="get">GET</string>	
+</resources>
